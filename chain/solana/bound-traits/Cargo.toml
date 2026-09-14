@@ -1,0 +1,11 @@
+[package]
+name = "bound-traits"
+version = "0.1.0"
+edition = "2021"
+description = "Canonical BOUND tier -> traits selection. Must match canonical/reference.py exactly."
+
+[dependencies]
+tiny-keccak = { version = "2.0", features = ["keccak"] }
+
+[dev-dependencies]
+hex = "0.4"
