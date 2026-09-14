@@ -50,7 +50,7 @@ make evm        # not built yet
 
 Rust is required for `make rust` (`apt install cargo` or rustup).
 
-**Agents: read `AGENTS.md` first.**
+**Agents: read `AGENTS.md` first, then `WORK-SPLIT.md` for who owns what.**
 
 ## The rule that protects the project
 
@@ -59,6 +59,11 @@ Solidity. If someone "improves" the seeding, the twin guarantee silently breaks
 and you find out when the digests disagree.
 
 Art production (`art/`) has full freedom as long as output passes validation.
+
+## Who does what
+
+`WORK-SPLIT.md` — phase-by-phase assignments across Claude, ChatGPT, and you.
+Deployment, keys and funds are yours alone; no agent touches them.
 
 ## Build order
 

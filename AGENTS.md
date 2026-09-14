@@ -46,6 +46,9 @@ evidence is worthless.
 
 ## Rule 3 — stay in your directory
 
+Full phase-by-phase assignments are in `WORK-SPLIT.md`. Check it before starting
+anything, and check it before assuming a task is yours.
+
 | Directory | Owner |
 |---|---|
 | `canonical/` | nobody — frozen |
