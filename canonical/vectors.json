@@ -1,0 +1,175 @@
+{
+  "tag": "BOUND/v1",
+  "digest": "0beebbb2d7f6cee419091692001ec6c15ae46070f7bd5459d761407964aee33b",
+  "note": "Port targets. A Rust or Solidity implementation must reproduce every seed and trait set below, then match the digest across all 5000 tiers.",
+  "vectors": [
+    {
+      "tier": 1,
+      "seed": "7b16508aafbb1aba3ad5f345a83d20c8d0b79ada9e01bc0d0f33c63b884e0e38",
+      "traits": {
+        "wrap": "alabaster",
+        "head": "nemes",
+        "eyes": "void",
+        "jaw": "snarl",
+        "bind": "cord",
+        "charm": "scarab",
+        "ground": "sand"
+      },
+      "serialized": "0000000109010803010100"
+    },
+    {
+      "tier": 2,
+      "seed": "ad9fc6fb2292cc3f08a15b7dcb893988e8b87fdb9548858e1fb32df4d50231c3",
+      "traits": {
+        "wrap": "gold_threaded",
+        "head": "cap",
+        "eyes": "hollow",
+        "jaw": "snarl",
+        "bind": "cord",
+        "charm": "eye_amulet",
+        "ground": "lapis"
+      },
+      "serialized": "0000000207020003010302"
+    },
+    {
+      "tier": 3,
+      "seed": "867134e729c626a74ee3767f1b40b681fab7286ae0cfa8563b9c421071a245ef",
+      "traits": {
+        "wrap": "linen",
+        "head": "none",
+        "eyes": "twin_pupils",
+        "jaw": "grin",
+        "bind": "leather_strap",
+        "charm": "scarab",
+        "ground": "lapis"
+      },
+      "serialized": "0000000302000702020102"
+    },
+    {
+      "tier": 42,
+      "seed": "194d278718290a5dc291d2e30b8789949ca600f63995b3a9091a30070c36b51d",
+      "traits": {
+        "wrap": "stained",
+        "head": "none",
+        "eyes": "lapis",
+        "jaw": "wrapped",
+        "bind": "cord",
+        "charm": "none",
+        "ground": "sand"
+      },
+      "serialized": "0000002a03000200010000"
+    },
+    {
+      "tier": 100,
+      "seed": "1ba51000e619bef5a46737ea7e7d38feca0721daf6cc4d991d7d7a157455e4f5",
+      "traits": {
+        "wrap": "bone",
+        "head": "circlet",
+        "eyes": "closed",
+        "jaw": "grin",
+        "bind": "cord",
+        "charm": "scarab",
+        "ground": "sand"
+      },
+      "serialized": "0000006400030302010100"
+    },
+    {
+      "tier": 777,
+      "seed": "e74f7e8405050a4372cbd63160a62a0d50ff7f1d119703c4f82510f517c9aaaf",
+      "traits": {
+        "wrap": "stained",
+        "head": "cap",
+        "eyes": "hollow",
+        "jaw": "wrapped",
+        "bind": "none",
+        "charm": "vial",
+        "ground": "flood"
+      },
+      "serialized": "0000030903020000000505"
+    },
+    {
+      "tier": 1234,
+      "seed": "b4de6f6adc7e17340c914355d322e2a01dcaa7fdf4cf093982717a4f73d5511e",
+      "traits": {
+        "wrap": "stained",
+        "head": "none",
+        "eyes": "lapis",
+        "jaw": "gilded",
+        "bind": "none",
+        "charm": "coin",
+        "ground": "tomb"
+      },
+      "serialized": "000004d203000204000401"
+    },
+    {
+      "tier": 2500,
+      "seed": "ad470c7026dfc8985f1253d205cd8a095be2bf91ddb2210b17adaca8520561ac",
+      "traits": {
+        "wrap": "linen",
+        "head": "none",
+        "eyes": "lapis",
+        "jaw": "grin",
+        "bind": "leather_strap",
+        "charm": "coin",
+        "ground": "night_sky"
+      },
+      "serialized": "000009c402000202020404"
+    },
+    {
+      "tier": 3333,
+      "seed": "a1be23cd6e11c6186124646b8568b1794148b215ec851537ee92e5a60474df6c",
+      "traits": {
+        "wrap": "ash",
+        "head": "jackal_mask",
+        "eyes": "painted",
+        "jaw": "wrapped",
+        "bind": "none",
+        "charm": "scarab",
+        "ground": "tomb"
+      },
+      "serialized": "00000d0501040100000101"
+    },
+    {
+      "tier": 4271,
+      "seed": "552488e0afa3f783f0ffd3e376090929b40ee50e561bc2fed22d110360e9a223",
+      "traits": {
+        "wrap": "lapis",
+        "head": "jackal_mask",
+        "eyes": "closed",
+        "jaw": "slack",
+        "bind": "cord",
+        "charm": "paired_scarabs",
+        "ground": "flood"
+      },
+      "serialized": "000010af04040301010705"
+    },
+    {
+      "tier": 4999,
+      "seed": "83545ffed28cf6c51fe948b2bf64ffaaf1d331dca8ecc5d93a7f968ccd4d1fc4",
+      "traits": {
+        "wrap": "linen",
+        "head": "nemes",
+        "eyes": "hollow",
+        "jaw": "grin",
+        "bind": "broken_chain",
+        "charm": "vial",
+        "ground": "sand"
+      },
+      "serialized": "0000138702010002060500"
+    },
+    {
+      "tier": 5000,
+      "seed": "f09db8666cd51ea1a795eb2b02f2aaef63fa7619ac34650376590b2455ec3070",
+      "traits": {
+        "wrap": "lapis",
+        "head": "cap",
+        "eyes": "hollow",
+        "jaw": "snarl",
+        "bind": "seal",
+        "charm": "scarab",
+        "ground": "torchlit"
+      },
+      "serialized": "0000138804020003040103"
+    }
+  ]
+}

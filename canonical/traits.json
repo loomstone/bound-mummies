@@ -1,0 +1,65 @@
+{
+  "tag": "BOUND/v1",
+  "tiers_per_chain": 5000,
+  "canvas": 32,
+  "slot_order": ["wrap", "head", "eyes", "jaw", "bind", "charm", "ground"],
+  "stack_order": ["ground", "wrap", "bind", "jaw", "eyes", "head", "charm"],
+  "gold_policy": {
+    "note": "Supersedes the original binary rule (no gold at weight >= 350). Gold quantity must track rarity, not gold presence. Thresholds are pixel counts of PAL.gold or PAL.gold_sh in a single 32x32 layer.",
+    "bands": [
+      {"name": "trace",    "min_px": 1,  "max_px": 8,    "max_weight": 10000},
+      {"name": "accent",   "min_px": 9,  "max_px": 40,   "max_weight": 500},
+      {"name": "dominant", "min_px": 41, "max_px": 1024, "max_weight": 250}
+    ]
+  },
+  "amendments": [
+    {
+      "id": "GOLD-01",
+      "slot": "ground",
+      "change": "gold: weight 500 -> 240",
+      "reason": "Gold leaf is a fully gilded background (dominant band). Dominant gold is capped at weight 250."
+    },
+    {
+      "id": "GOLD-02",
+      "slot": "ground",
+      "change": "tomb: weight 2100 -> 2360",
+      "reason": "Absorbs the 260 freed by GOLD-01 so the slot still sums to exactly 10000."
+    }
+  ],
+  "slots": {
+    "wrap": [
+      ["bone", 2600], ["ash", 2000], ["linen", 1700], ["stained", 1200],
+      ["lapis", 900], ["verdigris", 600], ["bitumen", 450], ["gold_threaded", 350],
+      ["unraveling", 150], ["alabaster", 50]
+    ],
+    "head": [
+      ["none", 3000], ["nemes", 2200], ["cap", 1500], ["circlet", 1100],
+      ["jackal_mask", 800], ["falcon_mask", 600], ["crown", 400],
+      ["horned_crown", 250], ["sun_disk", 100], ["gold_crown", 50]
+    ],
+    "eyes": [
+      ["hollow", 2800], ["painted", 2400], ["lapis", 1600], ["closed", 1200],
+      ["glowing", 900], ["cracked", 550], ["gold", 350], ["twin_pupils", 150],
+      ["void", 50]
+    ],
+    "jaw": [
+      ["wrapped", 3400], ["slack", 2300], ["grin", 1700], ["snarl", 1200],
+      ["gilded", 800], ["scarab_in_mouth", 450], ["coin_in_mouth", 150]
+    ],
+    "bind": [
+      ["none", 3500], ["cord", 2400], ["leather_strap", 1600], ["chain", 1100],
+      ["seal", 700], ["gold_wire", 450], ["broken_chain", 200],
+      ["thread_of_light", 50]
+    ],
+    "charm": [
+      ["none", 3600], ["scarab", 2200], ["ankh", 1500], ["eye_amulet", 1100],
+      ["coin", 800], ["vial", 400], ["key", 250], ["paired_scarabs", 120],
+      ["hourglass", 30]
+    ],
+    "ground": [
+      ["sand", 2600], ["tomb", 2360], ["lapis", 1600], ["torchlit", 1200],
+      ["night_sky", 900], ["flood", 700], ["void", 300], ["gold", 240],
+      ["eclipse", 100]
+    ]
+  }
+}
