@@ -1,0 +1,731 @@
+{
+  "canvas": 32,
+  "stack": [
+    "ground",
+    "wrap",
+    "bind",
+    "jaw",
+    "eyes",
+    "head",
+    "charm"
+  ],
+  "slot_order": [
+    "wrap",
+    "head",
+    "eyes",
+    "jaw",
+    "bind",
+    "charm",
+    "ground"
+  ],
+  "palette": {
+    "bone": [
+      232,
+      226,
+      208,
+      255
+    ],
+    "bone_sh": [
+      196,
+      188,
+      168,
+      255
+    ],
+    "bone_dk": [
+      150,
+      142,
+      126,
+      255
+    ],
+    "ash": [
+      176,
+      176,
+      180,
+      255
+    ],
+    "ash_sh": [
+      140,
+      140,
+      146,
+      255
+    ],
+    "ash_dk": [
+      100,
+      100,
+      108,
+      255
+    ],
+    "linen": [
+      226,
+      200,
+      156,
+      255
+    ],
+    "linen_sh": [
+      192,
+      164,
+      120,
+      255
+    ],
+    "linen_dk": [
+      148,
+      124,
+      88,
+      255
+    ],
+    "lapis": [
+      42,
+      78,
+      158,
+      255
+    ],
+    "lapis_sh": [
+      30,
+      56,
+      118,
+      255
+    ],
+    "lapis_dk": [
+      20,
+      38,
+      84,
+      255
+    ],
+    "lapis_lt": [
+      86,
+      132,
+      216,
+      255
+    ],
+    "gold": [
+      222,
+      176,
+      68,
+      255
+    ],
+    "gold_sh": [
+      176,
+      130,
+      42,
+      255
+    ],
+    "void": [
+      18,
+      16,
+      24,
+      255
+    ],
+    "shadow": [
+      40,
+      36,
+      48,
+      255
+    ],
+    "glow": [
+      140,
+      200,
+      240,
+      255
+    ],
+    "sand": [
+      206,
+      184,
+      140,
+      255
+    ],
+    "sand_dk": [
+      170,
+      148,
+      108,
+      255
+    ],
+    "wall": [
+      110,
+      96,
+      82,
+      255
+    ],
+    "wall_dk": [
+      86,
+      74,
+      64,
+      255
+    ]
+  },
+  "slots": {
+    "wrap": [
+      "bone",
+      "ash",
+      "linen",
+      "stained",
+      "lapis",
+      "verdigris",
+      "bitumen",
+      "gold_threaded",
+      "unraveling",
+      "alabaster"
+    ],
+    "head": [
+      "none",
+      "nemes",
+      "cap",
+      "circlet",
+      "jackal_mask",
+      "falcon_mask",
+      "crown",
+      "horned_crown",
+      "sun_disk",
+      "gold_crown"
+    ],
+    "eyes": [
+      "hollow",
+      "painted",
+      "lapis",
+      "closed",
+      "glowing",
+      "cracked",
+      "gold",
+      "twin_pupils",
+      "void"
+    ],
+    "jaw": [
+      "wrapped",
+      "slack",
+      "grin",
+      "snarl",
+      "gilded",
+      "scarab_in_mouth",
+      "coin_in_mouth"
+    ],
+    "bind": [
+      "none",
+      "cord",
+      "leather_strap",
+      "chain",
+      "seal",
+      "gold_wire",
+      "broken_chain",
+      "thread_of_light"
+    ],
+    "charm": [
+      "none",
+      "scarab",
+      "ankh",
+      "eye_amulet",
+      "coin",
+      "vial",
+      "key",
+      "paired_scarabs",
+      "hourglass"
+    ],
+    "ground": [
+      "sand",
+      "tomb",
+      "lapis",
+      "torchlit",
+      "night_sky",
+      "flood",
+      "gold",
+      "void",
+      "eclipse"
+    ]
+  },
+  "assets": [
+    {
+      "slot": "wrap",
+      "option": "bone",
+      "weight": 2600,
+      "path": "layers/wrap/bone.png",
+      "pixel_sha256": "fccb38f081a81ed62bf0c47754df0c1e4f954a92ee3b8ed2eb4f03c0c25e4c87",
+      "file_sha256": "9defd320dee343298cdac4610f76a9bf26929e44192ddcb5890582d73062dded"
+    },
+    {
+      "slot": "wrap",
+      "option": "ash",
+      "weight": 2000,
+      "path": "layers/wrap/ash.png",
+      "pixel_sha256": "03c4b755e0e4699a52c503e25fe03cd2e110153dd7e913d4889ba99f56e56dd9",
+      "file_sha256": "33027249614662bb2c9614b1c9d90e32765da840092b8c7728effc35c7a63c4c"
+    },
+    {
+      "slot": "wrap",
+      "option": "linen",
+      "weight": 1700,
+      "path": "layers/wrap/linen.png",
+      "pixel_sha256": "57f90b14a491db2ef7fee7466e9b59d6f73e92d264fa74c1450e1c9e0626c203",
+      "file_sha256": "0c0278570ca79661e296f3eb23c075850b6fc7895abcb2697c8d09e0bf966843"
+    },
+    {
+      "slot": "wrap",
+      "option": "stained",
+      "weight": 1200,
+      "path": "layers/wrap/stained.png",
+      "pixel_sha256": "6114ff969f28574632bc25a4acf90ffa97f7af1c57d67350c3916dc1a705ed89",
+      "file_sha256": "f778c2eb60012b103bce185796467a7d88b880362c43923a0817f226365eaec5"
+    },
+    {
+      "slot": "wrap",
+      "option": "lapis",
+      "weight": 900,
+      "path": "layers/wrap/lapis.png",
+      "pixel_sha256": "7e38298dc04c273731a052ec2d5d8276a71f9e28e720f51e0673e22a22806380",
+      "file_sha256": "586cad3a505902bda01bf50b44ad0bec657438acce7fd12f5b2b0a64d8980540"
+    },
+    {
+      "slot": "wrap",
+      "option": "verdigris",
+      "weight": 600,
+      "path": "layers/wrap/verdigris.png",
+      "pixel_sha256": "8e6cd301e7916ef67cf8ae5bca281398f4f2d703b4e71ec5759f597b912b2db9",
+      "file_sha256": "3c28e2c6f423a5ef263b71714c84f484632d5e6c1c44a16623facbbb7a1ef144"
+    },
+    {
+      "slot": "wrap",
+      "option": "bitumen",
+      "weight": 450,
+      "path": "layers/wrap/bitumen.png",
+      "pixel_sha256": "1b358d2477e4642acb2462d81052e60da91202ff55d5823132fe3a0a9fc97fe3",
+      "file_sha256": "03569a8710373782bdc03e97f9ec31b5430230bfcbf38e4deb802a28768bfbdf"
+    },
+    {
+      "slot": "wrap",
+      "option": "gold_threaded",
+      "weight": 350,
+      "path": "layers/wrap/gold_threaded.png",
+      "pixel_sha256": "f62c8ef8b9c261b73c51abfd12fc4c24cbf5b81c6afbac837ca82ffdd8cc7e81",
+      "file_sha256": "e1ab82b117f0fe448cf0cc272d27f5cbbcae832b0f492bde832c4bb0d370ce13"
+    },
+    {
+      "slot": "wrap",
+      "option": "unraveling",
+      "weight": 150,
+      "path": "layers/wrap/unraveling.png",
+      "pixel_sha256": "a4be78192fd2c2f2b88365010db00afc2fb7d02a57a49cd895c5199fc2cac8e5",
+      "file_sha256": "924df384d2313b9d469897b851fa63590d969ec11ab52c81557752d4386e05be"
+    },
+    {
+      "slot": "wrap",
+      "option": "alabaster",
+      "weight": 50,
+      "path": "layers/wrap/alabaster.png",
+      "pixel_sha256": "23439a249bacca854eba9d9efd3461c014306799bb37e95b6fcc8dc0820b7473",
+      "file_sha256": "ccb4419154461d0e6e8ff67b495fd1483dfb20c48e81876fe323eb86f1cc1f37"
+    },
+    {
+      "slot": "head",
+      "option": "none",
+      "weight": 3000,
+      "path": "layers/head/none.png",
+      "pixel_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "file_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "slot": "head",
+      "option": "nemes",
+      "weight": 2200,
+      "path": "layers/head/nemes.png",
+      "pixel_sha256": "ef6e02f5448ebe6fb207735ff86e88cb0e4adebe303e8ed85c3229fd3560319d",
+      "file_sha256": "3331f5241359e6ccf7d16a8bd255aaa5addda7262e2461dbaf68e44d4c458946"
+    },
+    {
+      "slot": "head",
+      "option": "cap",
+      "weight": 1500,
+      "path": "layers/head/cap.png",
+      "pixel_sha256": "9a4c5e93932df5f6850ffc6b55ea313a6927714bb4c015b73c82f408d0f1aecb",
+      "file_sha256": "e0be33040a40f43074ee112ce40018d9471b0379b2cc7ce6dabfdd185d6ac037"
+    },
+    {
+      "slot": "head",
+      "option": "circlet",
+      "weight": 1100,
+      "path": "layers/head/circlet.png",
+      "pixel_sha256": "4e92c3f7b72689f6c11a29e68b455df956d1f9f18702071c8153c269a75760c9",
+      "file_sha256": "a01d164218fa8a36dbe26c84b587cb741ccf3ce25688108958af64e18806327f"
+    },
+    {
+      "slot": "head",
+      "option": "jackal_mask",
+      "weight": 800,
+      "path": "layers/head/jackal_mask.png",
+      "pixel_sha256": "34a9355e003faa561bea84cf50c3e1987b81a4d1961f3c73f424cde9ba70697f",
+      "file_sha256": "d8845475fe380c678380fbca73efae6ad4b7b384862cf0a1f6fabf60fd07e969"
+    },
+    {
+      "slot": "head",
+      "option": "falcon_mask",
+      "weight": 600,
+      "path": "layers/head/falcon_mask.png",
+      "pixel_sha256": "c42640e9d50b1bdcce27caffbf00708496e06a751a2a47a8154b8ddb8d28d5fe",
+      "file_sha256": "5659b50aba4ace7502f4021d667130b20450fd63d0194e95ff26cfae99093227"
+    },
+    {
+      "slot": "head",
+      "option": "crown",
+      "weight": 400,
+      "path": "layers/head/crown.png",
+      "pixel_sha256": "960087f5ee904715641ee2b399304aa202d0ef2467445ead1b3b20815ee71c83",
+      "file_sha256": "0344f03376718710964f1b94ebf1bcf8ac11dab87a723a05bd508e50bb4288a7"
+    },
+    {
+      "slot": "head",
+      "option": "horned_crown",
+      "weight": 250,
+      "path": "layers/head/horned_crown.png",
+      "pixel_sha256": "4181e4d3e6d8ed3c7e301750edd33496abcda7602113540f7be5d7f8c265a0b0",
+      "file_sha256": "279db54c3792a6cf272eea8c8163b7b66ced3e0e42a0e309fc013802905586dd"
+    },
+    {
+      "slot": "head",
+      "option": "sun_disk",
+      "weight": 100,
+      "path": "layers/head/sun_disk.png",
+      "pixel_sha256": "4177d271093044ead0d1cd020e31bdaa44deebe59a4f35053796c4197c6ac868",
+      "file_sha256": "a3fefeee6bc82d95198abe203ea3e54f895de9606ae088a5705ae730383f5e8f"
+    },
+    {
+      "slot": "head",
+      "option": "gold_crown",
+      "weight": 50,
+      "path": "layers/head/gold_crown.png",
+      "pixel_sha256": "7261c0ba6c6f2244087f146fb12322eec3da9e97e774f73847497c2257782f68",
+      "file_sha256": "f25015622ecd703acb0a3318aa7d18bcea14ddb67ee5b928ac95279f56c211fe"
+    },
+    {
+      "slot": "eyes",
+      "option": "hollow",
+      "weight": 2800,
+      "path": "layers/eyes/hollow.png",
+      "pixel_sha256": "afd9fb45c304d4d1c546a8e0a86c33cfed720177a6583e0e1c031d910682180f",
+      "file_sha256": "68aa35fc33e53b7de78255c2c8f2116b346947c8dc16fb0d20bcbd0adeb96431"
+    },
+    {
+      "slot": "eyes",
+      "option": "painted",
+      "weight": 2400,
+      "path": "layers/eyes/painted.png",
+      "pixel_sha256": "c67b3b7cf6b4e592bb3e415460d69d00a6aa32b1a837f99a8ebf960b21fac4ad",
+      "file_sha256": "4d761b37813e585bc72e56cd5d73f15d8f0ebf18f4fc76d5452bbc05d9a88d04"
+    },
+    {
+      "slot": "eyes",
+      "option": "lapis",
+      "weight": 1600,
+      "path": "layers/eyes/lapis.png",
+      "pixel_sha256": "24aa3e4e260e437e48e729541a0c9677a6533035885fc0c917c0f6ae46fc099a",
+      "file_sha256": "c68c425905c923a8564e1f13a74f1979d0e88bdd47ff627dfc6332c4ce13a30e"
+    },
+    {
+      "slot": "eyes",
+      "option": "closed",
+      "weight": 1200,
+      "path": "layers/eyes/closed.png",
+      "pixel_sha256": "e344b894eb6b7bda86e10ec7c1f0f8296f7f228d7e078c41d12613daed8cddf3",
+      "file_sha256": "65a79e59e8f2a24144558e4f131e9cc2892dbd2e2135f6acb0104e9c6b4cdc59"
+    },
+    {
+      "slot": "eyes",
+      "option": "glowing",
+      "weight": 900,
+      "path": "layers/eyes/glowing.png",
+      "pixel_sha256": "0c93f0738b60aa673de27c6dde95c55571998f024cc39dd4b71e2ebfc6295e87",
+      "file_sha256": "158dcd571a7cdbebeba6e54c18279687a12571a0ae0f5f237d26e539ca2b17d2"
+    },
+    {
+      "slot": "eyes",
+      "option": "cracked",
+      "weight": 550,
+      "path": "layers/eyes/cracked.png",
+      "pixel_sha256": "3b594bc5194c1da155cadd3c6fe29122c3c8bb61e6da81dd22e5a3a17f31aaf6",
+      "file_sha256": "a159d63f175a7fcb620f791249adce2e6061c848797413f5e471d238ce03c96e"
+    },
+    {
+      "slot": "eyes",
+      "option": "gold",
+      "weight": 350,
+      "path": "layers/eyes/gold.png",
+      "pixel_sha256": "e6341fde6592e25229f40b0d679ad48117577f1783c29b14b48be68d840246a1",
+      "file_sha256": "9de758f70981b942b605b960b32036fd03f5098c796c23158e3b2efe998ba88a"
+    },
+    {
+      "slot": "eyes",
+      "option": "twin_pupils",
+      "weight": 150,
+      "path": "layers/eyes/twin_pupils.png",
+      "pixel_sha256": "31d8f5ce98bb6a8da6516c9e8c80d206cbd3a9cc3f91dbdb67f3bee9c91f62a3",
+      "file_sha256": "3abc1422dc8705efd1fd5328c29830db632b15dbec5fa9e4c4473ddf689e20b0"
+    },
+    {
+      "slot": "eyes",
+      "option": "void",
+      "weight": 50,
+      "path": "layers/eyes/void.png",
+      "pixel_sha256": "703429298d9714f4ab7e10d294b16f957410ea962801ca27fedc65414227bc9c",
+      "file_sha256": "e38497d8ef7a5f94946451a5347ce277a23b0321b0e70b76cffb08b204ddf684"
+    },
+    {
+      "slot": "jaw",
+      "option": "wrapped",
+      "weight": 3400,
+      "path": "layers/jaw/wrapped.png",
+      "pixel_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "file_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "slot": "jaw",
+      "option": "slack",
+      "weight": 2300,
+      "path": "layers/jaw/slack.png",
+      "pixel_sha256": "e4c0b98f436cc26c2104346482e38afd317aae5d3666a07ee987feb9191d0f14",
+      "file_sha256": "028a90c1f34037eaad1f3d4322b23819af5fe155d8b50f60989fec8247243f21"
+    },
+    {
+      "slot": "jaw",
+      "option": "grin",
+      "weight": 1700,
+      "path": "layers/jaw/grin.png",
+      "pixel_sha256": "286b726ff1bc8420e908f725adfc2d5bacb80b0432c6794f4699185c0a14c517",
+      "file_sha256": "53ff78fccc392bcf0c28a5a7a5355549269acf089d2fe79cb73efba3b0ffdabf"
+    },
+    {
+      "slot": "jaw",
+      "option": "snarl",
+      "weight": 1200,
+      "path": "layers/jaw/snarl.png",
+      "pixel_sha256": "51b2ba7fd524a66eb34aca05cac3f7b858b0676b2a6a593d9b46c01bd4b6fbe3",
+      "file_sha256": "d891663463169a6aa80e9407a96d6691fed093a5a541b29746c02de3872470c7"
+    },
+    {
+      "slot": "jaw",
+      "option": "gilded",
+      "weight": 800,
+      "path": "layers/jaw/gilded.png",
+      "pixel_sha256": "12948a0a001572dba301ca274ebcb81fe9d8d5c58083d5d3d3ff8ec18013c6c2",
+      "file_sha256": "7f4a613b8fc9189753676f8df424bd42a0f1816ec272b7f4c5fdc4965f4be1e5"
+    },
+    {
+      "slot": "jaw",
+      "option": "scarab_in_mouth",
+      "weight": 450,
+      "path": "layers/jaw/scarab_in_mouth.png",
+      "pixel_sha256": "f3d18ac3a426e743d897125f5753bff3b6be62f4401623f48ae3954b277c8b59",
+      "file_sha256": "eeacff6f35b9bf312efb5f4323097b0571c7484ef43e919f68e6a0e7258202b4"
+    },
+    {
+      "slot": "jaw",
+      "option": "coin_in_mouth",
+      "weight": 150,
+      "path": "layers/jaw/coin_in_mouth.png",
+      "pixel_sha256": "5ab62addcf0ff992f1d5a5d1f4f0622d98eea3b398c1e060fbf8a7e151aa994e",
+      "file_sha256": "e7753fabdb7cfa6d8c0390a1fbf0c64c141db1c89efbb06017dfc561e94cc782"
+    },
+    {
+      "slot": "bind",
+      "option": "none",
+      "weight": 3500,
+      "path": "layers/bind/none.png",
+      "pixel_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "file_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "slot": "bind",
+      "option": "cord",
+      "weight": 2400,
+      "path": "layers/bind/cord.png",
+      "pixel_sha256": "da7219175166d45dc49bf8fbea9d8e92e3ae9def68e91f5e63f5429fa1344686",
+      "file_sha256": "f746be25fce9e749031d5603e5300a17654471e129c517697c40dcbb1dee2660"
+    },
+    {
+      "slot": "bind",
+      "option": "leather_strap",
+      "weight": 1600,
+      "path": "layers/bind/leather_strap.png",
+      "pixel_sha256": "2350b5f87d571876ad3be3b34ad462e1eaa98b23cd643d4b846fad06f0a5bdf5",
+      "file_sha256": "834db285e9cf5788ba28634b03cfe707cbf25a3b57d04dd0f2096a0ab6882b54"
+    },
+    {
+      "slot": "bind",
+      "option": "chain",
+      "weight": 1100,
+      "path": "layers/bind/chain.png",
+      "pixel_sha256": "dddd5e4965f7f8700356baf7bd929a88b1b2f780e50522a55d0c94a6fa1fbe2d",
+      "file_sha256": "3f5a4cd7b4ac6f5fb5330c87c3952f2cdc1a041eefbe73b831d51dec8c0a8a76"
+    },
+    {
+      "slot": "bind",
+      "option": "seal",
+      "weight": 700,
+      "path": "layers/bind/seal.png",
+      "pixel_sha256": "ac9d0e8b08c14dc59110acceecb0def339f406a2d00b49f9f4df0a9322814128",
+      "file_sha256": "faef3a98bd9b86f2304f4aa203fc48ab18ce090d7a70418279602885734a2a9d"
+    },
+    {
+      "slot": "bind",
+      "option": "gold_wire",
+      "weight": 450,
+      "path": "layers/bind/gold_wire.png",
+      "pixel_sha256": "2492db9df280b6bde0d2125fece4e5d49d867bae4c78bce3c8f816b04ca21e62",
+      "file_sha256": "3563e3ef4102bf49bd1358b06eb62175a1f0d9070ccba719354dcf2377f144fb"
+    },
+    {
+      "slot": "bind",
+      "option": "broken_chain",
+      "weight": 200,
+      "path": "layers/bind/broken_chain.png",
+      "pixel_sha256": "c1bb404a695384cb3f6921052747d187aa90b31b83c9a01a5914919b76625370",
+      "file_sha256": "9b145a7aeab1e717c2c25a5f7ba9c596bef7f85bf7e4a24e40e7dcddb6a20265"
+    },
+    {
+      "slot": "bind",
+      "option": "thread_of_light",
+      "weight": 50,
+      "path": "layers/bind/thread_of_light.png",
+      "pixel_sha256": "47020ae8393a2f45095d9b92dcd4c0141a55c4a6b55eb6e50a23eea728f174dc",
+      "file_sha256": "f58dcbb00ec5b25920a734f7dc2f5367e4aa49518e9d0f94a7e9eb696995ab96"
+    },
+    {
+      "slot": "charm",
+      "option": "none",
+      "weight": 3600,
+      "path": "layers/charm/none.png",
+      "pixel_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "file_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220"
+    },
+    {
+      "slot": "charm",
+      "option": "scarab",
+      "weight": 2200,
+      "path": "layers/charm/scarab.png",
+      "pixel_sha256": "8913854567a4f9503917a4aef4726bf2af88ca156a3e9c27b26994b0ffbb2e15",
+      "file_sha256": "cb4134a9d671da7b5fa3b64c1214bedec61ebe318e95f382438e513f90b45479"
+    },
+    {
+      "slot": "charm",
+      "option": "ankh",
+      "weight": 1500,
+      "path": "layers/charm/ankh.png",
+      "pixel_sha256": "81593397debc0ea1c2967a4a9238f84d31d292e90fc63743bec8a1065b84b02e",
+      "file_sha256": "97a6ce637c64a60c136599a0683e814506ab44e3a6686aa6422b79f32d27ca9d"
+    },
+    {
+      "slot": "charm",
+      "option": "eye_amulet",
+      "weight": 1100,
+      "path": "layers/charm/eye_amulet.png",
+      "pixel_sha256": "430ea843cb46a2e23fdd3f8e8fa0f993121476c470e2ef3a6521f99f9a93b759",
+      "file_sha256": "56570f9adb71f04e4e948f6b6d5ec1c3a22ae265903b895ed050acc2f15cdf62"
+    },
+    {
+      "slot": "charm",
+      "option": "coin",
+      "weight": 800,
+      "path": "layers/charm/coin.png",
+      "pixel_sha256": "c2c06ce8699050ed4e8ded24df1f8b66ee5694fd6350716e7b7d246e3704480d",
+      "file_sha256": "b5c1904ab9f7fe61c5eb10467a95768f00fc11cd241380f1a0397f4f447e7568"
+    },
+    {
+      "slot": "charm",
+      "option": "vial",
+      "weight": 400,
+      "path": "layers/charm/vial.png",
+      "pixel_sha256": "382faee24e4ee5592534ca4a4f3c8da73f3f296d69ff05286091d6880ad69696",
+      "file_sha256": "c902d005e7f134e0d96b2b03cc2c6b7e2e2c0e7ce5c9a9ee50ecda071e908191"
+    },
+    {
+      "slot": "charm",
+      "option": "key",
+      "weight": 250,
+      "path": "layers/charm/key.png",
+      "pixel_sha256": "0d594cf48fdf6fa66eaacf2ca0b4b073b78ce2187799383a46d04bc9153ba2b0",
+      "file_sha256": "a736f57e4b6b841f8d69048d33b730002925335ae1b9a03f0acd593332ed1e49"
+    },
+    {
+      "slot": "charm",
+      "option": "paired_scarabs",
+      "weight": 120,
+      "path": "layers/charm/paired_scarabs.png",
+      "pixel_sha256": "588e98672c427467175590460ab632c101f6e3263a6bdf51d608c33659c33d52",
+      "file_sha256": "64308dd6aa344683cb70a1d33f4e484eb3b8c8b615a331e1d8e6a02e498f21a9"
+    },
+    {
+      "slot": "charm",
+      "option": "hourglass",
+      "weight": 30,
+      "path": "layers/charm/hourglass.png",
+      "pixel_sha256": "fdb3afb01251bd982cfbbcc182e1bb305f5058b0e746dffd2d99a755ea42e4d9",
+      "file_sha256": "7b9bdb146a7ca4d0e3ebfbd27ad32dcad1a4887544a24f6240ab27a05aa7cc3f"
+    },
+    {
+      "slot": "ground",
+      "option": "sand",
+      "weight": 2600,
+      "path": "layers/ground/sand.png",
+      "pixel_sha256": "e7c31a5229a51fef7b16c8b51bc915a1e2da8e9a49616d2598b60e13b5c5782b",
+      "file_sha256": "1f7fa2a4b54c5eed00434a6891ad2f39c6c53ed5c799dcb50bb053dfd59f6de5"
+    },
+    {
+      "slot": "ground",
+      "option": "tomb",
+      "weight": 2100,
+      "path": "layers/ground/tomb.png",
+      "pixel_sha256": "3a9130803efb26b0655d13519530a38a384470281fd682fdfaeb5020b57aaac8",
+      "file_sha256": "5c97728af0cc40a3fad2b4cf5438f0ad06f720e51a88c659bc7f2af06f713b8d"
+    },
+    {
+      "slot": "ground",
+      "option": "lapis",
+      "weight": 1600,
+      "path": "layers/ground/lapis.png",
+      "pixel_sha256": "70b34ff9a89cf287fdea7e7c7ce79e989b86325f4e8c08aaa1d78066478100f1",
+      "file_sha256": "8cd85d3272e1b48e078773976c8378ffcfa54ea515cb648392d4faf7cc8add46"
+    },
+    {
+      "slot": "ground",
+      "option": "torchlit",
+      "weight": 1200,
+      "path": "layers/ground/torchlit.png",
+      "pixel_sha256": "96d19aeb7faccec462d02715ea838a447977e63f429819fbe808981dfd16d820",
+      "file_sha256": "6b41cf52d9b60785d2e611e609d52c91049010f14be656215a458db97e8aea37"
+    },
+    {
+      "slot": "ground",
+      "option": "night_sky",
+      "weight": 900,
+      "path": "layers/ground/night_sky.png",
+      "pixel_sha256": "6f6c0c580a41b416d79332d41d5e2dbe467e483f89a2ccf0bf0ffb5c4b8aea19",
+      "file_sha256": "ad1a3e4c7305024dcf8c2b4d6a5bac57390e2c4d347f8e07489de77550cad65d"
+    },
+    {
+      "slot": "ground",
+      "option": "flood",
+      "weight": 700,
+      "path": "layers/ground/flood.png",
+      "pixel_sha256": "869392cbe2c15d21610605319adbaf3f8ff94931a66483f011ac7ea75d483d6f",
+      "file_sha256": "045aa653e3bd10fc7ddc9ce2e9d28a4baa5f34d719da907b6be1a38dccb5d5e3"
+    },
+    {
+      "slot": "ground",
+      "option": "gold",
+      "weight": 500,
+      "path": "layers/ground/gold.png",
+      "pixel_sha256": "f0528ec183252bd3a2111061164c94b4d3c2bfdacd429d790e82c4034efb5940",
+      "file_sha256": "77ffdad0210838abd90e820e2d28cf6beee2b7a5b4fe28b98e6f725186109e46"
+    },
+    {
+      "slot": "ground",
+      "option": "void",
+      "weight": 300,
+      "path": "layers/ground/void.png",
+      "pixel_sha256": "a4402650dd5f0db80ba43289043a044074018223b57a9bb69c31d104ac6bf619",
+      "file_sha256": "3263954b36d040d24e9e345aa3f19f7c137c25f00e3669f1256913eaf5bb0940"
+    },
+    {
+      "slot": "ground",
+      "option": "eclipse",
+      "weight": 100,
+      "path": "layers/ground/eclipse.png",
+      "pixel_sha256": "289fc4fb802aaa0caa3a4eccc716f4d24d5a1b56b6bf1e0af9decd5fcee5fb8d",
+      "file_sha256": "f61fb19ac6f2ca9d9e84f3a2d0592226572f46584c60228bcbe653ebc0eb9870"
+    }
+  ]
+}

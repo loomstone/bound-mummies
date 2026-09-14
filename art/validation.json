@@ -1,0 +1,17 @@
+{
+  "layers": 62,
+  "pair_sheets": 21,
+  "pair_compositions": 1644,
+  "errors": [],
+  "checks": [
+    "32x32 RGBA",
+    "binary alpha",
+    "original palette",
+    "gold weight < 350",
+    "expected empty layers only",
+    "opaque backgrounds",
+    "10000 weights per slot",
+    "repeatable pixels"
+  ],
+  "scope": "Artwork checks only. Pair sheets generated, not exhaustive human visual certification. No chain parity verification."
+}
